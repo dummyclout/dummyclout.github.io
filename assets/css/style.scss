@@ -2,3 +2,20 @@
 ---
 
 @import 'jekyll-theme-cayman';
+
+.topnav {
+    text-align: center;
+    position: relative;
+    margin: 0px;
+    list-style: none;
+}
+
+.topnav li {
+    display: inline-flex;
+    margin: 0 5px 0 0px;
+}
+
+.topnav a {
+    display: inline-block;
+    padding: 0 5px 0 0px;
+}
