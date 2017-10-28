@@ -1,0 +1,17 @@
+{% for post in paginator.posts %} <!-- loop through posts in paginator -->
+<div>
+    <div class="content">
+        <h2><a href="{{ post.url }}"><i class="fa fa-file"></i> {{ post.title }}</a></h2>
+        
+        <b>{{ post.date | date_to_long_string }}</b>
+            <div class="content-excerpt">
+                {{ post.excerpt }} 
+            </div>
+            <a  class="follow-post" href="{{ post.url }}">
+                Read more <i class="fa fa-arrow-right"></i>
+                </a>
+            <br>
+    </div>
+    <br>
+</div>
+{% endfor %}
