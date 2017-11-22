@@ -6,16 +6,9 @@ description: >
 ---
 <section>
     <div> 
-        <h2><a href="{{ site.github_url }}dindind.git"><i class="fa fa-code"></i> DinDinD</a></h2>
+        <h2><a href="{{ site.github_url }}elasticsec.git"><i class="fa fa-code"></i> elasticsec</a></h2>
         <p>
-            Docker in Docker in Docker! This should be gud :D
-        </p>
-    </div>
-    <br>
-    <div> 
-        <h2><a href="{{ site.github_url }}img-ruster.git"><i class="fa fa-code"></i> img-ruster</a></h2>
-        <p>
-            Image shifting, shredding, and tweaking with Rust. Faaaarrr ooouuuutttt maaaaaaan!
+            A portable Elastic stack for analyzing common formats used by security folks! (WIP)
         </p>
     </div>
     <br>
